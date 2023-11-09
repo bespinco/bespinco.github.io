@@ -1,3 +1,7 @@
+.coming-soon-details::before {
+  content: none;
+}
+
 .sub-section-title {
   text-align: right;
 }
