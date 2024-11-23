@@ -319,3 +319,13 @@ header {
 rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex) {
     text-align: right !important;
 }
+
+@media (min-width: 992px) {
+  .mb-lg-0 {
+    text-align: left;
+  }
+}
+
+p, .mt-4 {
+    text-align: right;
+}
