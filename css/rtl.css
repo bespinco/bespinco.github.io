@@ -287,3 +287,30 @@ img.shape {
 .p-0, .iq-list-with-icon {
     direction: rtl;
 }
+
+/*********MOBILE********/
+/*Menu*/
+@media (max-width: 992px) {
+header {
+    direction: ltr;
+  }
+}
+
+@media (max-width: 992px) {
+  header .navbar ul.navbar-nav li {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+/*Double Button*/
+@media (max-width: 767px) {
+  .iq-help .col-lg-6.text-right.align-self-center {
+    text-align: right !important;
+  }
+}
+
+/*images in the 2nd boxes*/
+.iq-icon-box-style-5 .icon-box-img {
+  width: 34%;
+}
