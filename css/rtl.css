@@ -314,3 +314,8 @@ header {
 .iq-icon-box-style-5 .icon-box-img {
   width: 34%;
 }
+
+/*Managed Support Page*/
+rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex) {
+    text-align: right !important;
+}
