@@ -280,12 +280,22 @@ img.shape {
 }
 
 /*Apply*/
+.iq-title-box .iq-title {
+    text-align: right;
+}
+
 .iq-counter-section .iq-list.iq-two-column {
     direction: rtl;
 }
 
 .p-0, .iq-list-with-icon {
     direction: rtl;
+}
+
+@media (min-width: 992px) {
+  .mb-lg-0 {
+    text-align: right !important;
+  }
 }
 
 /*********MOBILE********/
