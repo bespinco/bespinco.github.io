@@ -316,9 +316,9 @@ header {
 }
 
 /*Managed Support Page*/
-rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex) {
+/*rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex) {
     text-align: right !important;
-}
+}*/ /*Conflict with index page*/
 
 @media (min-width: 992px) {
   .mb-lg-0 {
