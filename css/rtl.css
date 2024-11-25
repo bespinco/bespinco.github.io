@@ -195,6 +195,13 @@ footer .social-icone li {
     right: 0%
 }
 
+@media (max-width: 479px) {
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea {
+    color: #59597e;
+    background: transparent;
+  }
+}
+
 /*Footer*/
 footer .widget .iq-contact li i {
     margin-right: auto;
