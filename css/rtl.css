@@ -339,3 +339,9 @@ header {
 p, .mt-4 {
     text-align: right;
 }
+
+
+/******************Daas Page*/
+rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex), .iq-counter.iq-counter-style-2 .counter-content .counter-title-text {
+    text-align: right !important;
+}
