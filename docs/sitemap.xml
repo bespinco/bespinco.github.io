@@ -32,11 +32,7 @@
   </url><url>
     <loc>https://bespin.ir/jobs/apply/</loc>
   </url><url>
-    <loc>https://bespin.ir/services/</loc>
-  </url><url>
     <loc>https://bespin.ir/services/cloud/</loc>
-  </url><url>
-    <loc>https://bespin.ir/services/daas/</loc>
   </url><url>
     <loc>https://bespin.ir/services/managed-support/</loc>
   </url><url>
@@ -53,6 +49,10 @@
     <loc>https://bespin.ir/we-do/</loc>
   </url><url>
     <loc>https://bespin.ir/categories/</loc>
+  </url><url>
+    <loc>https://bespin.ir/services/daas/</loc>
+  </url><url>
+    <loc>https://bespin.ir/services/</loc>
   </url><url>
     <loc>https://bespin.ir/jobs/senior-devops-engineer/</loc>
   </url>
