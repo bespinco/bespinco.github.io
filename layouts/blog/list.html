@@ -59,19 +59,19 @@
                                                 <i class="fa fa-calendar-alt mr-2"></i>
                                                 <span class="screen-reader-text">منتشره در</span>
                                                 <a href="javascript:void(0)" rel="bookmark">
-                                                    <time class="entry-date published updated" datetime="2024-11-10T06:44:40+00:00">آبان ۱۴۰۳</time>
+                                                    <time class="entry-date published updated" datetime="2024-11-10T06:44:40+00:00">{{ .Date.Format "2006-01-02" }}</time>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="blog-title">
-                                        <a href="post-1.html">
+                                        <a href="{{ .Permalink }}">
                                             <h5 class="mb-3">{{ .Title }}</h5>
                                         </a>
                                     </div>
                                     <p class="">{{ .Summary }}</p>
                                     <div class="blog-button">
-                                        <a class="iq-btn-link" href="post-1.html">بخوانید<i class="ml-2 ion-ios-arrow-left"></i></a>
+                                        <a class="iq-btn-link" href="{{ .Permalink }}">بخوانید<i class="ml-2 ion-ios-arrow-left"></i></a>
                                     </div>
                                 </div>
                             </div>

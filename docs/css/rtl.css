@@ -70,8 +70,14 @@ header .navbar .navbar-nav .nav-item a {
     float: left;
 }
 
+/*Table in Index Page*/
+@media (max-width: 479px) {
+    .hidden {
+        display: none !important;
+    }
+}
 
-/*ُText Boxes, INdex Page*/
+/*Text Boxes, Index Page*/
 .icon-box-content {
     text-align: right;
 }
@@ -193,6 +199,10 @@ footer .social-icone li {
 .iq-portfolio {
     left: auto !important;
     right: 0%
+}
+
+.iq-portfolio .iq-portfolio-content .consult-details p {
+    text-align: right;
 }
 
 @media (max-width: 479px) {
