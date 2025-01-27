@@ -49,7 +49,13 @@
                                 <div class="iq-blog-image clearfix">
                                     <img src="/images/blog/01.png" class="img-fluid" alt="blog" />
                                     <ul class="iq-blogtag">
-                                        <li><a href="javascript:void(0)">DevOps</a></li>
+                                        <li>
+                                            {{ $categoryCount := .Params.categories | len }}
+                                            {{ range $index, $value := .Params.categories }}
+                                              <a href="{{ "/categories/" | absURL }}{{ . | urlize }}" title="">{{ $value }}</a>
+                                              {{ if lt (add $index 1) $categoryCount }}, {{ end }}
+                                            {{ end }}
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="iq-blog-detail">

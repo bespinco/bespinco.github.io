@@ -1,6 +1,6 @@
 +++
 author = "ذکایی"
-categories = [""]
+categories = ["DevOps"]
 date = "2025-01-06T18:17:52-07:00"
 description = "description"
 draft = false

@@ -7,6 +7,10 @@ body, .textgyreadventor, h1, h2, h3, h4, h5, h6, header .navbar .navbar-nav .nav
     font-family: 'Anjoman Regular', Vazirmatn !important;
 }
 
+p {
+    line-height: 1.8;
+}
+
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: unset;
 }
@@ -201,7 +205,7 @@ footer .social-icone li {
     right: 0%
 }
 
-.iq-portfolio .iq-portfolio-content .consult-details p {
+.iq-portfolio .iq-portfolio-content .consult-details p, .mb-5 {
     text-align: right;
 }
 
@@ -224,10 +228,7 @@ footer .widget .iq-contact li i {
     text-align: right;
 }
 
-.iq-accordion .iq-accordion-block .iq-accordion-title .iq-icon-right {
-  right: auto;
-  left: 30px;
-}
+
 
 .iq-columns-4 .iq-portfolio-content .details-box a {
     text-align: center;
@@ -237,7 +238,7 @@ footer .widget .iq-contact li i {
     direction: rtl;
 }
 
-.iq-accordion .iq-accordion-block.iq-active .iq-accordion-title .accordion-title {
+.iq-accordion .iq-accordion-block.iq-active .iq-accordion-title .accordion-title, .iq-accordion .iq-accordion-title .accordion-title, .iq-list-with-icon li {
     text-align: right;
 } /*to fix question in mobile view*/
 
@@ -265,7 +266,7 @@ footer .widget .iq-contact li i {
 }
 
 /*Blog Post*/
-.widget, .blog-content {
+.widget, .blog-content, .owl-carousel .iq-blog-box .iq-blog-detail .blog-title h5 {
     text-align: right;
 }
 
@@ -274,6 +275,14 @@ blockquote {
     border-right: 5px solid #0d1e67;
 }
 
+.iq-blog-box .iq-blogtag {
+    margin: 0 0 0 20px;
+}
+
+.iq-blog-box .iq-blog-image img {
+    margin-bottom: 48px;
+}
+}
 /*About*/
 @media (min-width: 992px) {
     .mb-lg-0, .my-lg-0 {
