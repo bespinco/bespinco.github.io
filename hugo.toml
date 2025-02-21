@@ -5,10 +5,14 @@ title                   = 'بسپین، مجری دواپس'
 publishDir              = "docs"
 
 [permalinks]
-    about-us             = "/:section/:filename/"  #why :filename, why not :title? not to break the return link in shop page; Better to use another idea by coding a bit in future.
+    about-us            = "/:section/:filename/"  #why :filename, why not :title? not to break the return link in shop page; Better to use another idea by coding a bit in future.
     blog                = "/:section/:year/:month/:title/"
-    apply                 = "/:section/:filename/"
-    something_else                = "/:title/"
+    apply               = "/:section/:filename/"
+    something_else      = "/:title/"
+
+[taxonomies]
+    tag                 = "tags"
+    category            = "categories"
 
 [[cascade]]
    [cascade._target]
