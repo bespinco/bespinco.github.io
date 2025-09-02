@@ -209,6 +209,11 @@ footer .social-icone li {
     text-align: right;
 }
 
+input[type="email"] {
+
+  height: 46px;
+}
+
 @media (max-width: 479px) {
 input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea {
     color: #59597e;
