@@ -1,0 +1,10 @@
+<div id="recent-posts-2" class="widget widget_recent_entries">
+<h2 class="widget-title">تازه‌ها</h2>
+   <ul>
+      {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
+      <li>
+         <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+   </ul>
+</div>

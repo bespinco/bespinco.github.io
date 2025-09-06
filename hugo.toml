@@ -1,0 +1,59 @@
+baseURL                 = 'https://bespin.ir/'
+canonifyurls            = "true"
+languageCode            = 'fa-ir'
+title                   = 'بسپین، مجری دواپس'
+publishDir              = "docs"
+
+[permalinks]
+    about-us            = "/:section/:filename/"  #why :filename, why not :title? not to break the return link in shop page; Better to use another idea by coding a bit in future.
+    blog                = "/:section/:year/:month/:title/"
+    apply               = "/:section/:filename/"
+    something_else      = "/:title/"
+
+[taxonomies]
+    tag                 = "tags"
+    category            = "categories"
+
+[[cascade]]
+   [cascade._target]
+    path = '/technology/openstack'
+    [cascade.params]
+      layout = "openstack"
+[[cascade]]
+   [cascade._target]
+    path = '/technology/kubernetes'
+    [cascade.params]
+      layout = "kubernetes"
+[[cascade]]
+   [cascade._target]
+    path = '/technology/ceph'
+    [cascade.params]
+      layout = "ceph"
+
+[[cascade]]
+   [cascade._target]
+    path = '/services/daas'
+    [cascade.params]
+      layout = "daas"
+[[cascade]]
+   [cascade._target]
+    path = '/services/cloud'
+    [cascade.params]
+      layout = "cloud"
+[[cascade]]
+   [cascade._target]
+    path = '/services/managed-support'
+    [cascade.params]
+      layout = "managed-support"
+
+[[cascade]]
+   [cascade._target]
+    path = '/contact/demo'
+    [cascade.params]
+      layout = "demo"
+
+[[cascade]]
+   [cascade._target]
+    path = '/jobs/apply'
+    [cascade.params]
+      layout = "apply"

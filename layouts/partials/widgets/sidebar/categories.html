@@ -1,0 +1,14 @@
+{{ range $key, $value := .Site.Taxonomies }}
+    {{ if eq $key "categories" }}
+<div id="categories-2" class="widget widget_categories">
+    <h2 class="widget-title">دسته‌ها</h2>
+    <ul>
+        {{ range first 5 $value.ByCount }}
+        <li class="cat-item cat-item-2">
+            <a href="{{ $.Site.BaseURL}}{{ $key | pluralize }}/{{ .Name | urlize }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+    {{ end }}
+{{ end }}
