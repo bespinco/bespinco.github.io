@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on بسپین، مجری دواپس</title>
-    <link>https://bespin.ir/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on بسپین، مجری دواپس</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <lastBuildDate>Mon, 06 Jan 2025 18:17:52 -0700</lastBuildDate>
-    <atom:link href="https://bespin.ir/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Article</title>
-      <link>https://bespin.ir/tags/article/</link>
+      <link>http://localhost:1313/tags/article/</link>
       <pubDate>Mon, 06 Jan 2025 18:17:52 -0700</pubDate>
-      <guid>https://bespin.ir/tags/article/</guid>
+      <guid>http://localhost:1313/tags/article/</guid>
       <description></description>
     </item>
     <item>
       <title>First</title>
-      <link>https://bespin.ir/tags/first/</link>
+      <link>http://localhost:1313/tags/first/</link>
       <pubDate>Mon, 06 Jan 2025 18:17:52 -0700</pubDate>
-      <guid>https://bespin.ir/tags/first/</guid>
+      <guid>http://localhost:1313/tags/first/</guid>
       <description></description>
     </item>
   </channel>

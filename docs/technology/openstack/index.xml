@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>بسپین، مجری دواپس</title>
-    <link>https://bespin.ir/technology/openstack/</link>
+    <link>http://localhost:1313/technology/openstack/</link>
     <description>Recent content on بسپین، مجری دواپس</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
-    <atom:link href="https://bespin.ir/technology/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/technology/openstack/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
