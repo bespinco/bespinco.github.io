@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on بسپین، مجری دواپس</title>
-    <link>http://localhost:1313/services/</link>
+    <link>https://bespin.ir/services/</link>
     <description>Recent content in Services on بسپین، مجری دواپس</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
-    <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bespin.ir/services/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

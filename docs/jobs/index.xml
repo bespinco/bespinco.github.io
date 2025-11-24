@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>بسپین، مجری دواپس</title>
-    <link>http://localhost:1313/jobs/</link>
+    <link>https://bespin.ir/jobs/</link>
     <description>Recent content on بسپین، مجری دواپس</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
-    <atom:link href="http://localhost:1313/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bespin.ir/jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>وبلاگ | آکادمی یانا</title>
-      <link>http://localhost:1313/jobs/senior-devops-engineer/</link>
+      <link>https://bespin.ir/jobs/senior-devops-engineer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jobs/senior-devops-engineer/</guid>
+      <guid>https://bespin.ir/jobs/senior-devops-engineer/</guid>
       <description></description>
     </item>
   </channel>
